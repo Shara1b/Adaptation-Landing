@@ -1,0 +1,100 @@
+.Fastest{
+    width: 100%;
+    height: auto;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+.FastestMain{
+    margin-top: 226px;
+    width: 69.97%;
+    height: auto;
+    display: flex;
+    gap: 50px;
+}
+.FastestText{
+    width: 42.79%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 57.5px;
+    gap: 70px;
+}
+.text-content{
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+}
+.text-content h2{
+    font-weight: 400;
+    font-size: 3rem;
+    line-height: 55px;
+    color: #252B42;
+    margin: 0;
+    
+}
+.text-content p:last-of-type{
+    display: none;
+}
+.text-content p:first-of-type{
+    width: 100%;
+    font-weight: 400;
+    font-size: 1.75rem;
+    line-height: 40px;
+    color: #374754;
+    margin: 0;
+}
+.FastestText button{
+    height: 60px;
+    width: 236px;
+    border-radius: 35px;
+    background-color: #2091F9;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 1.25rem;
+    border: none;
+}
+.Macbook{
+    margin-top: 61.42px;
+    max-width: 100%;
+    min-width: 379px;
+    height: auto;
+}
+@media(max-width:1439px){
+    .FastestMain{
+        flex-direction: column;
+        align-items: center;
+    }
+    .FastestText{
+        text-align: center;
+        align-items: center;
+    }
+}
+@media(max-width:1113px){
+    .FastestText{
+        width: 65%;
+}
+}
+@media(max-width:733px){
+    .FastestText{
+        width: 100%;
+}
+}
+@media(max-width:603px){
+    .text-content p:last-of-type{
+        font-weight: 400;
+        font-size: 1.75rem;
+        color: #374754;
+        display: block;
+    }
+    .text-content p:first-of-type{
+        display: none;
+    }
+    .Macbook{
+        height: auto;
+}
+}
+
