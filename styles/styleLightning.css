@@ -1,0 +1,81 @@
+.Lightning{
+    margin-top: 44px;
+    width: 81.04%;
+    height: auto;
+    display: flex;
+}
+.LightningText{
+    width: 37.78%;
+    height: auto;
+    flex-direction: column;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    padding-left: 63px;
+    box-sizing: border-box;
+}
+.TextHeader{
+    width: 100%;
+    height: 165px;
+    color: #252B42;
+    flex-direction: column;
+    gap: 17px;
+    display: flex;
+}
+.TextHeader p{
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 28px;
+    margin: 0;
+}
+.TextHeader h2{
+    width: 100%;
+    font-weight: 400;
+    font-size: 3rem;
+    line-height: 55px;
+    margin: 0;
+}
+.TextMain{
+    width: 87.69%;
+}
+.TextMain h3{
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 28px;
+    color: #252B42;
+    margin: 0;
+}
+.TextMain p{
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 25px;
+    color: #374754;
+    margin: 0;
+}
+.MainButton{
+    margin-top: 36px;
+    display: flex;
+    gap: 12px;
+}
+.TextMain input{
+    width: 273px;
+    height: 52px;
+    border-radius: 39px;
+    color: #18171D;
+    background-color: #F4F4F4;
+    padding-left: 39px;
+    border: none;
+}
+.TextMain input::placeholder{
+    color: #18171D;
+    font-weight: 400;
+    font-size: 0.875rem;
+}
+.TextMain button{
+    width: 172px;
+    height: 58px;
+    border-radius: 35px;
+    background-color: #2091F9;
+    color: #ffff;
+    border: none;
+}
