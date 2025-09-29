@@ -1,0 +1,73 @@
+.Partners{
+    width: 81.04%;
+    height: auto;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+.PartnersHeader{
+    width: 38.4%;
+    height: auto;
+    margin-top: 80px;
+    flex-direction: column;
+    display: flex;
+    gap: 27px;
+}
+.PartnersHeader h2{
+    width: 100%;
+    font-weight: 400;
+    font-size: 3rem;
+    color: #252B42;
+    line-height: 55px;
+    margin: 0;
+}
+.PartnersHeader p{
+    width: 100%;
+    font-weight: 400;
+    font-size: 1.75rem;
+    color: #374754;
+    line-height: 40px;
+    margin: 0;
+}
+.clients{
+    display: flex;
+    flex-direction: column;
+    width: 1075px;
+    height: auto;
+}
+.row-1{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 0.8fr ;
+}
+.client-item{
+    width: 100%;
+    border: 1px solid #D8D8D8;
+}
+.row-2{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 0.8fr 1fr ;
+}
+.client-name{
+    font-weight: 400;
+    font-size: 1rem;
+    color: #374754;
+    margin-top: 32px;
+    margin-bottom: 15px;
+}
+.Partners button{
+    font-weight: 700;
+    text-align: center;
+    font-size: 1.25rem;
+    width: 236px;
+    height: 60px;
+    border-radius: 35px;
+    border: none;
+    background-color: #2091F9;
+    color: #FFFFFF;
+    margin-bottom: 80px;
+}

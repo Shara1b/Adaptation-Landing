@@ -1,0 +1,83 @@
+.Testimonials{
+    width: 80.98%;
+    height: auto;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 90px;
+}
+.TestimonialsHeader{
+    width: 19.53%;
+    height: auto;
+    margin: 100px 0 0 0;
+}
+.TestimonialsHeader h2{
+    font-weight: 400;
+    font-size: 3rem;
+    line-height: 55px;
+    color: #252B42;
+    margin: 0;
+}
+.TestimonialsMain{
+    width: 68.59%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+.TestimonialsMain img{
+    margin: 0 0 60px 0; 
+}
+.TestimonialsMain p{
+    font-weight: 400;
+    font-size: 1.75rem;
+    color: #374754;
+    line-height: 40px;
+    margin: 0 0 50px 0;
+}
+.client{
+    width: 18.85%;
+    height: auto;
+    display: flex;
+    color: #374754;
+    gap: 13px;
+}
+.client img{
+    width: 50px;
+    height: 50px;
+    margin: 0;
+}
+.clientText{
+    width: 66.13%;
+    height: auto;
+    flex-direction: column;
+}
+.client p:first-of-type{
+    width: 100%;
+    height: auto;
+    font-weight: 400;
+    font-size: 0.9rem;
+    margin: 0;
+}
+.client p:nth-of-type(2){
+    width: 100%;
+    text-align: left;
+    height: auto;
+    font-weight: 400;
+    font-size: 0.93rem;
+    margin: 0;
+}
+.Testimonials button{
+    font-weight: 700;
+    text-align: center;
+    font-size: 1.25rem;
+    width: 276px;
+    height: 60px;
+    border-radius: 35px;
+    border: none;
+    background-color: #2091F9;
+    color: #FFFFFF;
+    margin-bottom: 100px;
+}
