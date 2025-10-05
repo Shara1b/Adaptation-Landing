@@ -58,6 +58,12 @@
     font-size: 1.25rem;
     border: none;
 }
+.FastestText button:hover{
+    box-shadow: 1px 2px 10px blue;
+}
+.FastestText button:active{
+    opacity: 0.8;
+}
 .Macbook{
     margin-top: 61.42px;
     max-width: 100%;

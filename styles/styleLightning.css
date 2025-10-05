@@ -3,6 +3,8 @@
     width: 81.04%;
     height: auto;
     display: flex;
+    gap: 63px;
+    /* padding: 0 22.5px; */
 }
 .LightningText{
     width: 37.78%;
@@ -11,7 +13,6 @@
     display: flex;
     gap: 15px;
     justify-content: center;
-    padding-left: 63px;
     box-sizing: border-box;
 }
 .TextHeader{
@@ -22,21 +23,30 @@
     gap: 17px;
     display: flex;
 }
+.TextHeaderLast{
+    display: none;
+}
 .TextHeader p{
     font-weight: 700;
     font-size: 1.25rem;
     line-height: 28px;
     margin: 0;
 }
-.TextHeader h2{
+.TextHeader h2:first-of-type{
     width: 100%;
     font-weight: 400;
     font-size: 3rem;
     line-height: 55px;
     margin: 0;
 }
+.TextHeader h2:nth-of-type(2){
+    display: none;
+}
 .TextMain{
     width: 87.69%;
+}
+.TextMainLast{
+    display: none;
 }
 .TextMain h3{
     font-weight: 700;
@@ -45,12 +55,15 @@
     color: #252B42;
     margin: 0;
 }
-.TextMain p{
+.TextMain p:first-of-type{
     font-weight: 400;
     font-size: 1.125rem;
     line-height: 25px;
     color: #374754;
     margin: 0;
+}
+.TextMain p:nth-of-type(2){
+    display: none;
 }
 .MainButton{
     margin-top: 36px;
@@ -70,6 +83,7 @@
     color: #18171D;
     font-weight: 400;
     font-size: 0.875rem;
+
 }
 .TextMain button{
     width: 172px;
@@ -78,4 +92,126 @@
     background-color: #2091F9;
     color: #ffff;
     border: none;
+}
+.TextMain button:hover{
+    box-shadow: 1px 2px 10px blue;
+}
+.HeroLight button:active{
+    opacity: 0.8;
+}
+.LightningLogo{
+    max-width: 100%;
+    min-width: 389px;
+    height: 100%;
+}
+.LightningLogoLast{
+    display: none;
+}
+@media(max-width:878px){
+    .LightningTextLast{
+        flex-direction: column;
+        display: flex;
+        gap: 59px;
+        width: 100%;
+        height: auto;
+        justify-content: center;
+        box-sizing: border-box;
+}
+    .TextHeaderLast{
+        display: block;
+        text-align: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        gap: 17px;
+}
+    .TextHeaderLast h3{
+        font-weight: 700;
+        font-size: 1.25rem;
+        line-height: 28px;
+        color: #252B42;
+        margin: 0;
+}
+    .TextHeaderLast h2{
+        font-weight: 400;
+        font-size: 3rem;
+        line-height: 55px;
+        color: #252B42;
+        margin: 0;
+}
+    .TextHeaderLast p{
+        font-weight: 400;
+        font-size: 1.75rem;
+        line-height: 40px;
+        color: #374754;
+        margin: 0;
+}
+    .LightningLogoLast{
+        display: block;
+}
+    .TextMainLast{
+        display: block;
+        text-align: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        gap: 34px;
+}
+    .TextMainLast aside{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+}
+    .TextMainLast h3{
+        font-weight: 700;
+        font-size: 1.25rem;
+        line-height: 28px;
+        color: #252B42;
+        margin: 0;
+}
+    .TextMainLast p{
+        font-weight: 400;
+        font-size: 1.125rem;
+        line-height: 28px;
+        color: #374754;
+        margin: 0;
+}
+    .TextMainLast input{
+        width: 100%;
+        height: 52px;
+        border-radius: 39px;
+        color: #18171D;
+        background-color: #F4F4F4;
+        border: none;
+}
+    .TextMainLast input::placeholder{
+        color: #18171D;
+        font-weight: 400;
+        font-size: 0.875rem;
+        padding-left: 39px;
+}
+    .TextMainLast button{
+        width: 100%;
+        height: 58px;
+        border-radius: 35px;
+        background-color: #2091F9;
+        color: #ffff;
+        border: none;
+}
+    .MainButtonLast{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+}
+    .LightningText{
+        display: none;
+}
+    .LightningLogo{
+        display: none;
+}
 }
