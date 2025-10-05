@@ -1,0 +1,179 @@
+.Contact{
+    width: 85.3%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 153px;
+    gap: 50px;
+}
+.ContactHeader{
+    width: 45%;
+    height: auto;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+}
+.ContactHeader h2{
+    font-weight: 400;
+    font-size: 3rem;
+    line-height: 55px;
+    color: #252B42;
+    margin: 0;
+}
+.ContactHeader p{
+    font-weight: 400;
+    font-size: 1.75rem;
+    line-height: 40px;
+    color: #374754;
+    margin: 0;
+}
+.ContactMain{
+    width: 100%;
+    height: auto;
+    display: flex;
+    gap: 50px;
+}
+.ContactLeft{
+    width: 37%;
+    height: auto;
+    display: flex;
+    text-align: left;
+    align-items: flex-start;
+    flex-direction: column;
+    border-radius: 20px;
+    border: none;
+    gap: 45px;
+    justify-content: flex-start;
+    padding: 50px;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 19px #00000012;
+}
+.ContactLeft h3{
+    width: 100%;
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 28px;
+    color: #252B42;
+    margin: 0;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.ContactLeftInput{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+}
+.ContactLeftInput textarea{
+    width: 100%;
+    height: 193px;
+    padding: 39px;
+    border: none;
+    background-color: #00000012;
+    box-sizing: border-box;
+}
+.ContactLeftInput textarea::placeholder{
+    color: #18171D;
+    font-weight: 400;
+    font-size: 0.93rem;
+}
+.ContactLeftInput input{
+    width: 100%;
+    height: 54px;
+    border-radius: 39px;
+    padding-left: 39px;
+    border: none;
+    color: #18171D;
+    background-color: #E8E8E8;
+    box-sizing: border-box;
+}
+.ContactLeftInput input::placeholder{
+    color: #18171D;
+    font-weight: 400;
+    font-size: 0.93rem;
+}
+.button{
+    display: flex;
+    text-align: left;
+    align-items: center;
+}
+.ContactLeft button{
+    width: 172px;
+    height: 58px;
+    border-radius: 35px;
+    background-color: #2091F9;
+    color: #ffff;
+    border: none;
+    box-sizing: border-box;
+    font-weight: 400;
+    text-align: center;
+    align-items: center;
+    font-size: 1.25rem;
+}
+.ContactRight{
+    width: 59.05%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.Navigation{
+    width: 100%;
+    height: auto;
+    display: flex;
+    gap: 15px;
+}
+.Navigation p{
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 23px;
+    color: #374754;
+    margin: 0;
+}
+.OneRowLogo{
+    width: 26px;
+    height: 32px;
+}
+.OneRow, .TwoRow, .ThreeRow {
+    flex: 1 1 0%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 20px;
+}
+.map-container{
+    position: relative;
+    padding-bottom: 56.25%;
+    height: auto;
+    overflow: hidden;
+}
+.map-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 71.18%;
+    height: 100%;
+    margin-left: 104px;
+}
+.SocialMedia{
+    text-align: left;
+    align-items: center;
+    display: flex;
+    gap: 24px;
+}
+.SocialMedia img{
+    width: 41px;
+    height: 41px;
+}
+
+

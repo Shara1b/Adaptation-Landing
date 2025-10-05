@@ -1,0 +1,300 @@
+.Pricing{
+    width: 100%;
+    height: auto;
+    background-color: #252B42;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 80px;
+}
+.PricingHeader{
+    width: 31.07%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.PricingHeader h2{
+    font-weight: 400;
+    font-size: 3rem;
+    line-height: 55px;
+    color: #FFFFFF;
+    margin: 0;
+}
+.PricingHeader p:first-of-type{
+    width: 100%;
+    font-weight: 400;
+    font-size: 1.75rem;
+    line-height: 40px;
+    color: #FFFFFF;
+    margin: 0;
+}
+.PricingHeader p:nth-of-type(2){
+    display: none;
+}
+.PricingMain{
+    width: 70%;
+    height: auto;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.FirstRow{
+    width: 335px;
+    height: 607px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    border-radius: 10px;
+    border: none;
+    background-color: #FFFFFF;
+    gap: 30px;
+    padding: 40px;  
+}
+.FirstRowHeader{
+    width: 65%;
+    height: auto;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+.FirstRowHeader h3{
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 28px;
+    color: #252B42;
+    margin: 0;
+}
+.FirstRowHeader p{
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 23px;
+    color: #374754;
+    margin: 0;
+}
+.FirstRowPrice{
+    width: 80%;
+    height: auto;
+    display: flex;
+    gap: 10px;
+}
+.FirstRowPrice h1{
+    font-weight: 700;
+    font-size: 4.625rem;
+    line-height: 84px;
+    color: #252B42;
+    margin: 0;
+}
+.FirstRowPriceText{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+
+}
+.FirstRowPriceText p:first-of-type{
+    width: 100%;
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 28px;
+    color: #252B42;
+    text-align: left;
+    margin: 0;
+}
+.FirstRowPriceText p:nth-of-type(2){
+    width: 100%;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 23px;
+    color: #374754;
+    text-align: left;
+    margin: 0;
+}
+.FirstRowPricingFeature{
+    width: 76.12%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.FirstRowPricingFeature p{
+    font-weight: 400;
+    font-size: 0.935rem;
+    line-height: 28px;
+    color: #252B42;
+    margin: 0;
+}
+.FirstRow button{
+    font-weight: 700;
+    text-align: center;
+    font-size: 1.25rem;
+    width: 255px;
+    height: 56px;
+    border-radius: 35px;
+    border: none;
+    background-color: #2091F9;
+    color: #FFFFFF;
+}
+.FirstRow button:hover{
+    box-shadow: 1px 2px 10px blue;
+}
+.FirstRow button:active{
+    opacity: 0.8;
+}
+
+
+.SecondRow{
+    width: 335px;
+    height: 693px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    border-radius: 10px;
+    border: none;
+    color: #FFFFFF;
+    background-color: #2091F9;
+    gap: 30px;
+    padding: 40px;
+}
+.SecondRowHeader{
+    width: 65%;
+    height: auto;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+.SecondRowHeader h3{
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 28px;
+    margin: 0;
+}
+.SecondRowHeader p{
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 23px;
+    margin: 0;
+}
+.SecondRowPrice{
+    width: 80%;
+    height: auto;
+    display: flex;
+    gap: 10px;
+}
+.SecondRowPrice h1{
+    font-weight: 700;
+    font-size: 4.625rem;
+    line-height: 84px;
+    margin: 0;
+}
+.SecondRowPriceText{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
+.SecondRowPriceText p:first-of-type{
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 28px;
+    text-align: left;
+    margin: 0;
+}
+.SecondRowPriceText p:nth-of-type(2){
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 23px;
+    text-align: left;
+    margin: 0;
+}
+.SecondRowPricingFeature{
+    width: 76.12%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.SecondRowPricingFeature p{
+    font-weight: 400;
+    font-size: 0.935rem;
+    line-height: 28px;
+    margin: 0;
+}
+.SecondRow button{
+    font-weight: 700;
+    text-align: center;
+    font-size: 1.25rem;
+    width: 255px;
+    height: 56px;
+    border-radius: 35px;
+    border: none;
+    background-color: #FFFFFF;
+    color: #2091F9;
+}
+.SecondRow button:hover{
+    box-shadow: 1px 2px 10px blue;
+}
+.SecondRow button:active{
+    opacity: 0.8;
+}
+@media(max-width:1111px){
+    .PricingMain{
+        flex-direction: column;
+        display: flex;
+        gap: 50px;
+}
+    .SecondRow{
+        width: 335px;
+        height: auto;
+        box-sizing: border-box;
+}
+    .FirstRow{
+        width: 335px;
+        height: auto;
+        box-sizing: border-box;
+}
+    .SecondRowPrice{
+        text-align: center;
+        align-items: center;
+}
+    .FirstRowPrice{
+        text-align: center;
+        align-items: center;
+}
+    .PricingHeader p:nth-of-type(2){
+        width: 100%;
+        display: block;
+        font-weight: 400;
+        font-size: 1.75rem;
+        line-height: 40px;
+        color: #FFFFFF;
+        margin: 0;
+}
+    .PricingHeader p:first-of-type{
+        display: none;
+}
+}
+@media(max-width:804px){
+    .PricingHeader{
+        width: 45%;
+}
+}
+@media(max-width:555px){
+    .PricingHeader{
+        width: 65%;
+}
+}
