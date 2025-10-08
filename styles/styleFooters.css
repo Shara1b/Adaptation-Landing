@@ -1,0 +1,121 @@
+.footers{
+    width: 991px;
+    height: 267px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    gap: 20px;
+    color: #ffffff;
+}
+.OneRowFooters{
+    width: 17.16%;
+    height: auto;
+    flex-direction: column;
+    text-align: left;
+    display: grid;
+    justify-items: start;
+    gap: 25px;
+}
+.OneRowFooters h3{
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 28px;
+    margin: 0;
+}
+.OneRowFooters li{
+    font-weight: 400;
+    font-size: 0.935rem;
+    line-height: 28px;
+    margin: 0;
+}
+.OneRowFooters ul{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    margin: 0;
+}
+.TwoRowFooters{
+    width: 18.77%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    display: grid;
+    justify-items: start;
+}
+.TwoRowFooters h3{
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 28px;
+    margin: 0;
+}
+.TwoRowFooters li{
+    font-weight: 400;
+    font-size: 0.935rem;
+    line-height: 28px;
+    margin: 0;
+}
+.TwoRowFooters ul{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    text-align: left;
+    margin: 0;
+}
+.ThreeRowFooters{
+    width: 18.77%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    display: grid;
+    justify-items: start;
+}
+.ThreeRowFooters h3{
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 28px;
+    margin: 0;
+}
+.ThreeRowFooters li{
+    font-weight: 400;
+    font-size: 0.935rem;
+    line-height: 28px;
+    margin: 0;
+}
+.ThreeRowFooters ul{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    text-align: left;
+    margin: 0;
+}
+.Address {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0 0 73px 125px;
+    text-align: left;
+    display: grid;
+    justify-items: start;
+}
+.AddressMain {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    display: grid;
+    justify-items: start;
+    gap: 20px;
+    align-items: center;
+}
+.address-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.AddressSocial{
+    display: flex;
+    gap: 24px;
+    margin: 0;
+}

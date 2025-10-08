@@ -7,6 +7,7 @@
     display: flex;
     flex-direction: column;
     margin-top: 153px;
+    margin-bottom: 52px;
     gap: 50px;
 }
 .ContactHeader{
@@ -228,6 +229,7 @@
         flex-direction: row;
         gap: 20px;
         text-align: left;
+        width: 100%;
 }
     .SocialMedia{
         text-align: center;
