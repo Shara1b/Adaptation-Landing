@@ -7,10 +7,10 @@
     justify-content: center;
     padding: 0 20px;
     box-sizing: border-box;
-}
-.FastestMain{
     margin-top: 226px;
     margin-bottom: 226px;
+}
+.FastestMain{
     width: 69.97%;
     height: auto;
     display: flex;
@@ -21,6 +21,7 @@
     height: auto;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     margin-top: 57.5px;
     gap: 70px;
 }

@@ -7,11 +7,12 @@
     display: flex;
     justify-content: center;
     gap: 80px;
+    margin-top: 80px;
+    margin-bottom: 80px;
 }
 .PartnersHeader{
     width: 45%;
     height: auto;
-    margin-top: 80px;
     flex-direction: column;
     display: flex;
     gap: 27px;
@@ -72,7 +73,6 @@
     border: none;
     background-color: #2091F9;
     color: #FFFFFF;
-    margin-bottom: 80px;
 }
 .Partners button:hover{
     box-shadow: 1px 2px 10px blue;

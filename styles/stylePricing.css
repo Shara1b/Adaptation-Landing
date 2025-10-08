@@ -120,14 +120,17 @@
     text-align: left;
     margin: 0;
 }
-.FirstRowPricingFeature{
-    width: 76.12%;
+.FirstRowPricingFeature ul{
+    width: 100%;
     height: auto;
     display: flex;
     flex-direction: column;
     gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
 }
-.FirstRowPricingFeature p{
+.FirstRowPricingFeature li{
     font-weight: 400;
     font-size: 0.935rem;
     line-height: 28px;
@@ -221,17 +224,21 @@
     text-align: left;
     margin: 0;
 }
-.SecondRowPricingFeature{
-    width: 76.12%;
+.SecondRowPricingFeature ul{
+    width: 100%;
     height: auto;
     display: flex;
     flex-direction: column;
     gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
 }
-.SecondRowPricingFeature p{
+.SecondRowPricingFeature li{
     font-weight: 400;
     font-size: 0.935rem;
     line-height: 28px;
+    color: #ffffff;
     margin: 0;
 }
 .SecondRow button{
