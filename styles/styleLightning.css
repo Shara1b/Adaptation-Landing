@@ -32,6 +32,7 @@
     font-size: 1.25rem;
     line-height: 28px;
     margin: 0;
+    order: 1;
 }
 .TextHeader h2:first-of-type{
     width: 100%;
@@ -39,6 +40,7 @@
     font-size: 3rem;
     line-height: 55px;
     margin: 0;
+    order: 2;
 }
 .TextHeader h2:nth-of-type(2){
     display: none;
